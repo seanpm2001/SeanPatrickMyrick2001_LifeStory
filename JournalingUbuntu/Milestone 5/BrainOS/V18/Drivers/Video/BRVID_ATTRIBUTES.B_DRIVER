@@ -1,0 +1,45 @@
+\Start
+# BrainVideoAttributes
+/| Sysread
+accessBySys = true
+accessByMind = false/true
+viewableByMindWhen {
+	curScope.viewWhen(looking at files in front of them)
+	curScope.donotViewWhen(looking at the operating of BrainOS on their own brain)
+}
+read.fpsterminology()
+read.pixelterminology()
+read.colorterminology()
+read.resolutionterminology()
+read.eyeMain()
+|/
+def1 {
+# Pixel count
+RecordResolutionMP = (476 Megapixels)
+RecordResolutionKP = (476000 Kilopixels)
+RecordResolutionP = (476000000 pixels)
+PupilAverageMP = (7 Megapixels)
+PupilAverageKP = (7000 Kilopixels)
+PupilAverageP = (7000000 pixels)
+PupilMaxMP = (8 Megapixels)
+PupilMaxKP = (8000 Kilopixels)
+PupilMaxP = (8000000 Pixels)
+}
+def2 {
+# Color
+ColorModeMax: [128 bit color (in normal viewing)]
+ColorModeMin: [1 bit color (when eyes are closed and sleeping)]
+ColorModeMid: [16 bit color (when eyes are closed, and light is interacting with the eyelids)]
+}
+def3 {
+# Resolution and refresh rate
+ResolutionPerEye = (238 per eye)
+FullResolution = (238000000x476000000-?-)
+VideoRefreshRate: (120hz # 120 FPS)
+VideoCompressionLevel = (48%)
+}
+#-- File info --#
+# FileVersion:1
+# Created By Sean Myrick on: August 26th 2019 (version 1)
+# Recent update: August 26th 2019 (version 1)
+/End
