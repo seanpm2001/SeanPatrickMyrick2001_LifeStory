@@ -1,0 +1,17 @@
+HAMM_DRIVER
+Human Applicable Muscle Memory Driver
+
+HAP18
+Human Applicable Program 18.x
+
+B_DRIVER
+Brain Driver
+
+C_MEMORY_DAT
+Cloud Memory Data
+
+VLL
+Vocal Link Library
+
+BRVID
+Brain Video
