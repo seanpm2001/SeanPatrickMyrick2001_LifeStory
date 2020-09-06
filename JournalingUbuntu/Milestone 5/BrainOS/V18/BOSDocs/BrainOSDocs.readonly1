@@ -1,0 +1,34 @@
+BrainOS docs
+
+Files must start with \Start
+and on the last line end with /End
+
+driver /| Sysread
+access statements have to be made with = statements
+Import section must come last for required references
+import syntax:
+read.mainlib()
+end with |/
+
+curScope defines actions within the current scope
+add a .viewWhen or other action to start the first action statement
+
+false/true statements have to have access statements for false, and access statements for true
+
+comments # - single line
+big comments #- -#
+#- content -#
+#- content
+within
+the
+big
+comment
+-#
+
+statements with =
+content afterwards has to be in a ( content )
+statements with :
+content afterwards has to be in a [ content ]
+add in -?- before the last ) to make the last definition within the statement skipped
+
+definition sections have to be in their own variable. After the definition name, a { has to be placed, following with the content needed, then a closing }
